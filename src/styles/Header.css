@@ -3,9 +3,15 @@
     grid-template-columns: auto 1fr;
     align-items: center;
     background-color: #1a3459;
+    width: 100vw;
+    height: 130px;
 }
 
 .header_navbar li {
    display: inline-block;
    
+}
+
+.header_logo {
+    height: 130px;
 }
