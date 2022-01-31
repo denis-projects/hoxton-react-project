@@ -1,0 +1,38 @@
+.contact {
+    display: grid;
+  }
+
+.contact h1 {
+    text-align: center;
+    color: royalblue;
+}
+  
+form {
+    display: grid;
+    grid-auto-flow: row;
+    width: auto;
+    height: auto;
+    padding: 30px;
+}
+  
+form input {
+    padding: 1rem;
+    border: solid 1px rgb(18, 22, 25);
+    color: black;
+    margin: 0.8rem;
+    border-radius: 8px;
+}
+
+  
+  
+form button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #3f1a83;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}

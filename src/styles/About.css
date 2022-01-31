@@ -1,0 +1,8 @@
+.about {
+    display: grid;
+    grid-auto-flow: row;
+    margin: 2rem;
+    gap: 1rem;
+
+}
+  
