@@ -6,7 +6,14 @@
     background-size: cover;
     display: grid;
 
+  
   }
+
+  .headerContainer {
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+}
 
    
   .headerContainer button {
@@ -23,6 +30,10 @@
     font-weight: 700;
   }
 
+  .headerContainer button:hover {
+    cursor: pointer;
+  }
+
   .headerContainer h1 {
     justify-content: center;
     align-items: center;
@@ -31,9 +42,7 @@
     color: white;
   }
 
-  .headerContainer button:hover {
-    cursor: pointer;
-  }
+  
 
     
   
