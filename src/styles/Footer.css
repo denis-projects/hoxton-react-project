@@ -1,0 +1,19 @@
+.footer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1a3459;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;  
+}
+
+.socialMedia svg {
+    color: white;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.footer p {
+    color: white;
+}
