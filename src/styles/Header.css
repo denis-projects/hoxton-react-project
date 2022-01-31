@@ -3,8 +3,10 @@
     grid-template-columns: auto 1fr;
     align-items: center;
     height: 100%;
+    background-color: #1a3459;
 }
 
 .header_navbar li {
    display: inline-block;
+   
 }
