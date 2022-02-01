@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import '../styles/Header.css'
 import React from 'react';
 // @ts-ignore
-import logo from '../assets/logo.png'
+import logo from '../../assets/logo.png'
 
 function Header() {
     return (
