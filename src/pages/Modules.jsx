@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from "react"
-import { Link } from 'react-router-dom'
-import MolduleItem from '../components/MolduleItem';
+import ModuleList from '../components/ModuleList';
 import '../styles/Modules.css'
 
 function Modules() {
@@ -17,13 +16,7 @@ function Modules() {
     return (
         <div className='modules'>
             <h1 className='modulesTitle'>The Modules</h1>
-            <ul className='modulesList'>
-                {modules.map(module => (
-
-                    <MolduleItem module={module} />
-
-                ))}
-            </ul>
+            <ModuleList modules={modules} />
         </div >
     )
 }
