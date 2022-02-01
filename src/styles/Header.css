@@ -5,13 +5,26 @@
     background-color: #1a3459;
     width: 100vw;
     height: 130px;
+    padding: 1rem;
+    border-radius: 5px;
 }
 
-.header_navbar li {
-   display: inline-block;
-   
+
+.header nav ul {
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 1.5rem;
 }
+
+header nav ul a:hover {
+    color: cornsilk;
+    font-size: 1.1rem;
+}
+
+
 
 .header_logo {
-    height: 130px;
+    height: 100px;
 }

@@ -19,7 +19,7 @@ function Header() {
                         <Link to="/modules" >Modules</Link>
                     </li>
                     <li>
-                        <Link to="/contact" >Contact Us</Link></li>
+                        <Link to="/contact" >Apply</Link></li>
                     <li>
                         <Link to="/about" >About</Link>
                     </li>
