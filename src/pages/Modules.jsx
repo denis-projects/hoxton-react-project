@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from "react"
 import { Link } from 'react-router-dom'
+import MolduleItem from '../components/MolduleItem';
 import '../styles/Modules.css'
 
 function Modules() {
@@ -20,11 +21,12 @@ function Modules() {
                 {modules.map(module => (
                     <li>
                         {/* <Link to=`/modules/${module.id}`> */}
-                        <div>
-                            <img src={module.image} alt={module.name} />
-                            <h3>{module.name}</h3>
-                            <p>{module.weekDuration}</p>
-                        </div>
+                        <MolduleItem
+                            key={module.id}
+                            image={module.image}
+                            name={module.name}
+                            weekDuration={module.weekDuration}
+                        />
 
                         {/* </Link> */}
                     </li>
