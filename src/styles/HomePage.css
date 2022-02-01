@@ -4,9 +4,7 @@
     justify-content: center;
     background-position: center;
     background-size: cover;
-    display: grid;
-
-  
+    display: grid;  
   }
 
  .headerContainer {
