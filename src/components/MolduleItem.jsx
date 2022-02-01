@@ -1,12 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
-function MolduleItem(props) {
+function MolduleItem({ module }) {
     return (
-        <div className='modulesItem'>
-            <img src={props.image} alt={props.name} />
-            <h3>{props.name}</h3>
-            <p>{props.weekDuration}</p>
-        </div>
+        <li>
+            <Link to={`/modules/${module.id}`}>
+                <div className='modulesItem'>
+                    <img src={module.image} alt={module.name} />
+                    <h3>{module.name}</h3>
+                    <p>{module.weekDuration}</p>
+                </div>
+            </Link>
+        </li>
     )
 }
 

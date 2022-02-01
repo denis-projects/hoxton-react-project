@@ -19,20 +19,12 @@ function Modules() {
             <h1 className='modulesTitle'>The Modules</h1>
             <ul className='modulesList'>
                 {modules.map(module => (
-                    <li>
-                        {/* <Link to=`/modules/${module.id}`> */}
-                        <MolduleItem
-                            key={module.id}
-                            image={module.image}
-                            name={module.name}
-                            weekDuration={module.weekDuration}
-                        />
 
-                        {/* </Link> */}
-                    </li>
+                    <MolduleItem module={module} />
+
                 ))}
             </ul>
-        </div>
+        </div >
     )
 }
 
