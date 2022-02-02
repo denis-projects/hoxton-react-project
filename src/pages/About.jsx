@@ -6,6 +6,7 @@ function About() {
         <div className='about'>
             <div className='aboutTop'>
                 <h1>About Us</h1>
+                <img src='assets\Homepage Photo.jpeg' alt="" />
                 <p><b>The mission of Hoxton Academy is to build the next generation of software engineers not only changing young people’s lives but also helping businesses find and retain talent.
                     With millions of businesses around the world increasing their digital transformation efforts, a big challenge lies ahead for the global economy, talent shortage.</b> </p>
                 <p>Although a seductive and quite lucrative career, companies around the world cannot fill their needs for software engineers and the demand for talents in this field will go up to 85.2 million by 2030. Companies risk losing more than 8.4 trillion dollars because of talent shortage. But the reality is more complicated than simply a software engineer shortage. The problem has to do with the way most companies recruit these talents. Hoxton Academy, a project started as a close partnership between London, Tirana and Pristina, is coming to Albania thanks to ICTSmedia and Twig and it represents an innovative professional education methodology with immediate employment outcomes.</p>
