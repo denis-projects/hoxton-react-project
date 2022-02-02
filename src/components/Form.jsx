@@ -12,36 +12,40 @@ export default function Form() {
         <form className='form'
             onSubmit={handleSubmit}
         >
-            <label htmlFor="">
+            <label>
                 Name
                 <input
+                    id='name'
                     type="text"
                     name='name'
                     placeholder='Enter your name' />
             </label>
-            <label htmlFor="">
+            <label>
                 Last name
                 <input
+                    id='lastname'
                     type="text"
                     name='lastname'
                     placeholder='Enter your last name' />
             </label>
-            <label htmlFor="">
+            <label>
                 Email
                 <input
+                    id='email'
                     type="email"
                     name='email'
                     placeholder='Enter your email' />
             </label>
-            <label htmlFor="">
+            <label>
                 Add a comment
                 <input
+                    id='comment'
                     type="text"
                     name='comment'
-                    placeholder='Enter your email' />
+                    placeholder='Enter your comment' />
             </label>
 
-            <button type='submit' >Submit your Application</button>
+            <button className='form-input-btn' type='submit'  >Submit your Application</button>
         </form>
     )
 }
