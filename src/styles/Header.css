@@ -15,11 +15,12 @@
     grid-auto-flow: column;
     justify-content: center;
     gap: 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 header nav ul a:hover {
     color: cornsilk;
-    font-size: 1.1rem;
 }
 
 
