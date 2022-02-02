@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from '../components/Form';
 import '../styles/Contact.css'
+import image from '../../assets/formPhoto.jpg'
 
 
 
@@ -10,7 +11,11 @@ function Contact() {
 
     return (
         <div className='contact'>
-            <h1>Apply down bealow to take the Logic test today</h1>
+
+            <div className='form-content-left'>
+                <img className="form-img" src={image} alt="" />
+            </div>
+
             <Form />
         </div>
     )
