@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from '../components/Form';
 import '../styles/Contact.css'
+// @ts-ignore
 import FormPhoto from '../../assets/formPhoto.jpg'
 
 
