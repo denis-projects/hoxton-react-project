@@ -1,11 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Form() {
 
-    function handleSubmit(event) {
-        event.preventDefault()
-        console.log('Submitted')
+    const initialValues = {
+        name: "",
+        lastname: "",
+        email: "",
+        comment: ""
     }
+
+    const [formValues, setFormValues] = useState(initialValues)
+
+    const handleChange = (e) => {
+        const { name, value } = e.target
+        setFormValues({ ...formValues, [name]: value })
+
+    }
+
+    const handleSubmit = (e) => {
+        e.prevenDefault()
+
+    }
+
 
 
     return (
@@ -22,7 +38,10 @@ export default function Form() {
                             id='name'
                             type="text"
                             name='name'
-                            placeholder='Enter your name' />
+                            value={formValues.name}
+                            placeholder='Enter your name'
+                            onChange={handleChange}
+                        />
                     </label>
                 </div>
                 <div className='form-inputs'>
@@ -32,7 +51,10 @@ export default function Form() {
                             id='lastname'
                             type="text"
                             name='lastname'
-                            placeholder='Enter your last name' />
+                            value={formValues.lastname}
+                            placeholder='Enter your last name'
+                            onChange={handleChange}
+                        />
                     </label>
                 </div>
                 <div className='form-inputs'>
@@ -42,7 +64,10 @@ export default function Form() {
                             id='email'
                             type="email"
                             name='email'
-                            placeholder='Enter your email' />
+                            value={formValues.email}
+                            placeholder='Enter your email'
+                            onChange={handleChange}
+                        />
                     </label>
                 </div>
                 <div className='form-inputs'>
@@ -52,7 +77,10 @@ export default function Form() {
                             id='comment'
                             type="text"
                             name='comment'
-                            placeholder='Enter your comment' />
+                            value={formValues.comment}
+                            placeholder='Enter your comment'
+                            onChange={handleChange}
+                        />
                     </label>
                 </div>
 
