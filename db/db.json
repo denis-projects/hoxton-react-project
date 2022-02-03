@@ -1,62 +1,69 @@
 {
-    "modules": [
-        {
-            "id": 1,
-            "name": "HTML & CSS",
-            "weekDuration": 4,
-            "description": "some text here",
-            "image": "/assets/HtmlCss.png"
-        },
-        {
-            "id": 2,
-            "name": "JavaScript",
-            "weekDuration": 6,
-            "description": "some text here",
-            "image": "/assets/JavaScript.png"
-        },
-        {
-            "id": 3,
-            "name": "React",
-            "weekDuration": 5,
-            "description": "some text here",
-            "image": "/assets/React.png"
-        },
-        {
-            "id": 4,
-            "name": "TypeScript",
-            "weekDuration": 1,
-            "description": "some text here",
-            "image": "/assets/TypeScript.png"
-        },
-        {
-            "id": 5,
-            "name": "Node.js",
-            "weekDuration": 4,
-            "description": "some text here",
-            "image": "/assets/NodeJs.jpeg"
-        },
-        {
-            "id": 6,
-            "name": "CS Fundamentals",
-            "weekDuration": 2,
-            "description": "some text here",
-            "image": "/assets/computerScience.jpg"
-        },
-        {
-            "id": 7,
-            "name": "Final Projects",
-            "weekDuration": 1,
-            "description": "some text here",
-            "image": "/assets/FinalProject.jpg"
-        }
-    ],
-    "users": [
-        {
-            "id": 1,
-            "name": "Denis",
-            "lastname": "Mimini",
-            "email": "den@is.com",
-            "comment": "test"
-        }
-    ]
+  "modules": [
+    {
+      "id": 1,
+      "name": "HTML & CSS",
+      "weekDuration": 4,
+      "description": "some text here",
+      "image": "/assets/HtmlCss.png"
+    },
+    {
+      "id": 2,
+      "name": "JavaScript",
+      "weekDuration": 6,
+      "description": "some text here",
+      "image": "/assets/JavaScript.png"
+    },
+    {
+      "id": 3,
+      "name": "React",
+      "weekDuration": 5,
+      "description": "some text here",
+      "image": "/assets/React.png"
+    },
+    {
+      "id": 4,
+      "name": "TypeScript",
+      "weekDuration": 1,
+      "description": "some text here",
+      "image": "/assets/TypeScript.png"
+    },
+    {
+      "id": 5,
+      "name": "Node.js",
+      "weekDuration": 4,
+      "description": "some text here",
+      "image": "/assets/NodeJs.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "CS Fundamentals",
+      "weekDuration": 2,
+      "description": "some text here",
+      "image": "/assets/computerScience.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Final Projects",
+      "weekDuration": 1,
+      "description": "some text here",
+      "image": "/assets/FinalProject.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Denis",
+      "lastname": "Mimini",
+      "email": "den@is.com",
+      "comment": "test"
+    },
+    {
+      "name": "denis",
+      "lastname": "mimini",
+      "email": "denis.mimini.1@outlook.com",
+      "comment": "1",
+      "id": 2
+    }
+  ]
 }
