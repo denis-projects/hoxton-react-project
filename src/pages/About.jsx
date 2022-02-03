@@ -10,7 +10,7 @@ function About() {
                 <div className='testimonialsSection'>
                     <div className='testimonialSection'>
                         <h3 className='testimonialName'>Ed (Teacher)</h3>
-                        <p className='testimonialText'>Hoxton Accademy is the perfect place to start your carrier as a Full-Stack Developer. How goal is to help the students to learn as much as possibile in a modern way</p>
+                        <p className='testimonialText'>Hoxton Accademy is the perfect place to start your carrier as a Full-Stack Developer. Our goal is to help the students to learn as much as possibile in a modern way.</p>
                     </div>
                     <div className='testimonialSection'>
                         <h3 className='testimonialName'>Denis (Student)</h3>
