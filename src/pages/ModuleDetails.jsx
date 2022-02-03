@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import '../styles/ModuleDetail.css'
 
 function ModuleDetails() {
 
@@ -17,8 +18,8 @@ function ModuleDetails() {
 
     if (module === null) return <h2>Please wait</h2>
 
-    return <div>
-        <section className='module-detail main-wraper'>
+    return <div className='moduleDetail'>
+        <section className='module-detail-main-wraper'>
             <img src={module.image} alt={module.title} />
             <div className='product-detail__side'>
                 <h2>{module.name}</h2>

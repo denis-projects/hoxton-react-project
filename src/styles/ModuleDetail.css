@@ -1,0 +1,25 @@
+.moduleDetail {
+    display: grid;
+    margin: 3rem;
+    padding: 2rem;
+    border: 1px black solid;
+}
+
+
+
+.module-detail-main-wraper {
+    display: grid;
+    gap: 3rem;
+    
+}
+.module-detail-main-wraper img {
+    width: 800px;
+    place-content: center;
+}
+
+.module-detail-main-wraper h2 {
+    color: cornflowerblue;
+    margin-bottom: 1rem;
+
+}
+
