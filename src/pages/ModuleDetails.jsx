@@ -23,7 +23,7 @@ function ModuleDetails() {
             <div className='product-detail__side'>
                 <h2>{module.name}</h2>
                 <p>{module.description}</p>
-                <button>Apply</button>
+
 
             </div>
         </section>

@@ -4,49 +4,49 @@
       "id": 1,
       "name": "HTML & CSS",
       "weekDuration": "Duration 4 weeks",
-      "description": "some text here",
+      "description": "HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building Web pages and Web Applications.",
       "image": "/assets/HtmlCss.png"
     },
     {
       "id": 2,
       "name": "JavaScript",
       "weekDuration": "Duration 6 weeks",
-      "description": "some text here",
+      "description": "JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.",
       "image": "/assets/JavaScript.png"
     },
     {
       "id": 3,
       "name": "React",
       "weekDuration": "Duration 5 weeks",
-      "description": "some text here",
+      "description": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. ",
       "image": "/assets/React.png"
     },
     {
       "id": 4,
       "name": "TypeScript",
       "weekDuration": "Duration 1 week",
-      "description": "some text here",
+      "description": "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. TypeScript is designed for the development of large applications and transcompiles to JavaScript.As TypeScript is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.",
       "image": "/assets/TypeScript.png"
     },
     {
       "id": 5,
       "name": "Node.js",
       "weekDuration": "Duration 4 weeks",
-      "description": "some text here",
+      "description": "As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following hello world example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.This is in contrast to today's more common concurrency model, in which OS threads are employed. Thread-based networking is relatively inefficient and very difficult to use. Furthermore, users of Node.js are free from worries of dead-locking the process, since there are no locks.",
       "image": "/assets/NodeJs.jpeg"
     },
     {
       "id": 6,
       "name": "CS Fundamentals",
       "weekDuration": "Duration 2 weeks",
-      "description": "some text here",
+      "description": "Computer science is the study of computation, automation, and information.[1] Computer science spans theoretical disciplines, such as algorithms, theory of computation, and information theory, to practical disciplines including the design and implementation of hardware and software.[2][3] Computer science is generally considered an area of academic research and distinct from computer programming.Algorithms and data structures have been called the heart of computer science.[4] The theory of computation concerns abstract models of computation and general classes of problems that can be solved using them.",
       "image": "/assets/computerScience.jpg"
     },
     {
       "id": 7,
       "name": "Final Projects",
       "weekDuration": "Duration 1 week",
-      "description": "some text here",
+      "description": "Congretulation, You did it",
       "image": "/assets/FinalProject.jpg"
     }
   ],
