@@ -4,8 +4,6 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     padding: 2rem;
-    grid-auto-rows: 200px;
-
 }
 
 .modulesTitle {
@@ -16,6 +14,14 @@
 
 li {
     list-style: none;
+}
+
+ 
+.modulesItem h3,
+.modulesItem p {
+    margin-left: 20px;
+    color: black;
+  
 }
 
 
@@ -37,15 +43,9 @@ li {
 .modulesItem div {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    /* width: 100%;
-    height: 200px; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-  
-.modulesItem h3,
-.modulesItem p {
-    margin-left: 20px;
-}
+ 
 
