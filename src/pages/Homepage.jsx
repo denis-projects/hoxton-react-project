@@ -8,10 +8,8 @@ function Homepage() {
     return (
         <div className='home' style={{ backgroundImage: `url(${MainImage})` }} >
             <div className='headerContainer'  >
-                <h1>Next generation of Software Engineers</h1>
-                {/* <p>The best place for a life changing experience</p> */}
                 <Link to="/contact">
-                    <button> APPLY NOW </button>
+                    <h1>Be part of next generation of Software Engineers</h1>
                 </Link>
 
             </div>

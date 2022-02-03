@@ -13,31 +13,20 @@
   justify-content: center;
 }
 
-   
-.headerContainer button {
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: whitesmoke;
-    height: 60px;
-    width: 140px;
-    color: royalblue;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-    
-}
-
-.headerContainer button:hover {
-    cursor: pointer;
-}
 
 .headerContainer h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 2.5rem;
     color: white;
+    background-color: #1a3459;
+    border-radius: 10px;
+    padding: 1rem;
 }
+
+
+
+
+
 
   
 
