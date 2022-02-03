@@ -1,6 +1,5 @@
 .about {
     display: grid;
-    grid-auto-flow: row;
     margin: 2rem;
     gap: 2rem;
     padding: 1rem;
@@ -8,13 +7,40 @@
 }
 
 
-h1 {
-    color: slateblue;
-    padding-left: 2rem;
-    margin-bottom: 1rem;
+.aboutTop p {
+    padding: 1rem;
 }
+
+
 
 .aboutTop {
     display: grid;
-    gap: 1.2rem;
+    gap: 3rem;
+    text-align: justify;
+    
 }
+
+.aboutTop p {
+    font-size: 1.1rem;
+}
+
+.testimonialsSection {
+     
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+
+}
+
+.testimonialSection {
+    border: solid 1px blue;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.testimonialSection p {
+    margin-top: 1rem;
+}
+
+
