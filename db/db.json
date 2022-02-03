@@ -3,49 +3,49 @@
     {
       "id": 1,
       "name": "HTML & CSS",
-      "weekDuration": 4,
+      "weekDuration": "Duration 4 weeks",
       "description": "some text here",
       "image": "/assets/HtmlCss.png"
     },
     {
       "id": 2,
       "name": "JavaScript",
-      "weekDuration": 6,
+      "weekDuration": "Duration 6 weeks",
       "description": "some text here",
       "image": "/assets/JavaScript.png"
     },
     {
       "id": 3,
       "name": "React",
-      "weekDuration": 5,
+      "weekDuration": "Duration 5 weeks",
       "description": "some text here",
       "image": "/assets/React.png"
     },
     {
       "id": 4,
       "name": "TypeScript",
-      "weekDuration": 1,
+      "weekDuration": "Duration 1 week",
       "description": "some text here",
       "image": "/assets/TypeScript.png"
     },
     {
       "id": 5,
       "name": "Node.js",
-      "weekDuration": 4,
+      "weekDuration": "Duration 4 weeks",
       "description": "some text here",
       "image": "/assets/NodeJs.jpeg"
     },
     {
       "id": 6,
       "name": "CS Fundamentals",
-      "weekDuration": 2,
+      "weekDuration": "Duration 2 weeks",
       "description": "some text here",
       "image": "/assets/computerScience.jpg"
     },
     {
       "id": 7,
       "name": "Final Projects",
-      "weekDuration": 1,
+      "weekDuration": "Duration 1 week",
       "description": "some text here",
       "image": "/assets/FinalProject.jpg"
     }
