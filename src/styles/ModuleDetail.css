@@ -9,11 +9,12 @@
 
 .module-detail-main-wraper {
     display: grid;
-    gap: 3rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
     
 }
 .module-detail-main-wraper img {
-    width: 800px;
+    /* width: 800px; */
     place-content: center;
 }
 

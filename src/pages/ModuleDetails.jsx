@@ -18,17 +18,27 @@ function ModuleDetails() {
 
     if (module === null) return <h2>Please wait</h2>
 
-    return <div className='moduleDetail'>
-        <section className='module-detail-main-wraper'>
-            <img src={module.image} alt={module.title} />
-            <div className='product-detail__side'>
-                <h2>{module.name}</h2>
-                <p>{module.description}</p>
+    return (
+        <div className='moduleDetail'>
+            <section className='module-detail-main-wraper'>
+                <div className='module-details-image'>
+                    <img src={module.image} alt={module.title} />
+                </div>
 
+                <div className='product-detail__side'>
+                    <div className='detailDescription'>
+                        <h2>{module.name}</h2>
+                        <p>{module.description}</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Add a comment</h3>
+                    <input type="text" />
+                </div>
+            </section>
+        </div>
 
-            </div>
-        </section>
-    </div>;
+    )
 }
 
 export default ModuleDetails;
