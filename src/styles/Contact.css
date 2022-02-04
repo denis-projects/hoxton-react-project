@@ -14,7 +14,7 @@ form {
 }
  
   
-.form-inputs {
+form input {
     display: block;
     padding-left: 10px;
     outline: none;

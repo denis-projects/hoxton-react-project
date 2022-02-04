@@ -37,6 +37,7 @@
     border: solid 1px blue;
     padding: 1rem;
     border-radius: 10px;
+    background-color: aliceblue;
 }
 
 .testimonialSection p {

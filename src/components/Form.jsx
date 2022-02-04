@@ -1,5 +1,6 @@
 // @ts-nocheck
 import React, { useState } from 'react';
+import "../styles/Contact.css"
 
 export default function Form() {
 
