@@ -51,6 +51,7 @@ function ModuleDetails() {
                             event.preventDefault()
                             const content = event.target.comment.value
                             createComment(content, module.Id)
+                            event.target.reset()
 
 
                         }}

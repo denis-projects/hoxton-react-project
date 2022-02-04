@@ -45,6 +45,7 @@ export default function Form() {
                     const comment = event.target.comment.value
 
                     createUser(name, lastname, email, comment)
+                    event.target.reset()
                 }}
             >
 
