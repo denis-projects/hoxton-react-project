@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import '../styles/ModuleDetail.css'
@@ -46,10 +47,19 @@ function ModuleDetails() {
                 <div>
                     <form
                         className='detailsForm'
-                        onSubmit={createComment}
+                        onSubmit={function (event) {
+                            event.preventDefault()
+                            const content = event.target.comment.value
+                            createComment(content, module.Id)
+
+
+                        }}
                     >
                         <label htmlFor="text">Add a comment</label>
-                        <input type="text" />
+                        <input
+                            type="text"
+                            name='comment'
+                        />
                         <button className='detailsButton'>Post</button>
                     </form>
 
