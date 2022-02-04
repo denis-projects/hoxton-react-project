@@ -32,8 +32,12 @@ function ModuleDetails() {
                     </div>
                 </div>
                 <div>
-                    <h3>Add a comment</h3>
-                    <input type="text" />
+                    <form className='detailsForm'>
+                        <label htmlFor="text">Add a comment</label>
+                        <input type="text" />
+                        <button className='detailsButton'>Post</button>
+                    </form>
+
                 </div>
             </section>
         </div>

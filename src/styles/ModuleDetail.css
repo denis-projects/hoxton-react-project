@@ -2,7 +2,9 @@
     display: grid;
     margin: 3rem;
     padding: 2rem;
-    border: 1px black solid;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color:aliceblue;
 }
 
 
@@ -10,8 +12,7 @@
 .module-detail-main-wraper {
     display: grid;
     grid-template-columns: 300px 1fr;
-    gap: 1rem;
-    
+    gap: 1rem;  
 }
 .module-detail-main-wraper img {
     /* width: 800px; */
@@ -22,5 +23,9 @@
     color: cornflowerblue;
     margin-bottom: 1rem;
 
+}.moduleDetail label {
+    color: blue;
 }
+
+
 
