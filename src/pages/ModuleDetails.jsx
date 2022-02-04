@@ -42,6 +42,7 @@ function ModuleDetails() {
                     <div className='detailDescription'>
                         <h2>{module.name}</h2>
                         <p>{module.description}</p>
+                        {/* <p>{module.reviews}</p> */}
                     </div>
                 </div>
                 <div>
@@ -52,14 +53,13 @@ function ModuleDetails() {
                             const content = event.target.comment.value
                             createComment(content, module.Id)
                             event.target.reset()
-
-
                         }}
                     >
-                        <label htmlFor="text">Add a comment</label>
+
                         <input
                             type="text"
                             name='comment'
+                            placeholder='Write your comment'
                         />
                         <button className='detailsButton'>Post</button>
                     </form>
