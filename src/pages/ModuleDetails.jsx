@@ -19,23 +19,25 @@ function ModuleDetails() {
     if (module === null) return <h2>Please wait</h2>
 
 
-    function createComment(content, moduleId) {
+    function createComment(content) {
+
         fetch('http://localhost:3001/reviews', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
 
             },
-            body: JSON.stringify({ content, moduleId })
+            body: JSON.stringify({ content, moduleId: module.id })
         }).then(resp => resp.json())
             .then(newComment => {
                 const modulesCopy = JSON.parse(JSON.stringify(module))
-                const moduleToChange = modulesCopy.find(module => module.id === moduleId)
-                moduleToChange.reviews.push(newComment)
+                modulesCopy.reviews.push(newComment)
                 setModule(modulesCopy)
             })
 
     }
+
+
 
 
     return (
