@@ -5,7 +5,6 @@ import '../styles/ModuleDetail.css'
 function ModuleDetails() {
 
     const [module, setModule] = useState(null)
-
     const params = useParams()
 
 
@@ -17,6 +16,19 @@ function ModuleDetails() {
     }, [])
 
     if (module === null) return <h2>Please wait</h2>
+
+
+    function createComment(content, moduleId) {
+        fetch('http://localhost:3001/reviews', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+
+            },
+            body: JSON.stringify({ content, moduleId })
+        }).then(resp => resp.json())
+    }
+
 
     return (
         <div className='moduleDetail'>
@@ -32,7 +44,10 @@ function ModuleDetails() {
                     </div>
                 </div>
                 <div>
-                    <form className='detailsForm'>
+                    <form
+                        className='detailsForm'
+                        onSubmit={createComment}
+                    >
                         <label htmlFor="text">Add a comment</label>
                         <input type="text" />
                         <button className='detailsButton'>Post</button>
