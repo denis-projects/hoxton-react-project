@@ -58,7 +58,8 @@ export default function Form() {
                             name='name'
                             // value={formValues.name}
                             placeholder='Enter your name'
-                        // onChange={handleChange}
+                            // onChange={handleChange}
+                            required
                         />
                     </label>
                 </div>
@@ -71,7 +72,8 @@ export default function Form() {
                             name='lastname'
                             // value={formValues.lastname}
                             placeholder='Enter your last name'
-                        // onChange={handleChange}
+                            // onChange={handleChange}
+                            required
                         />
                     </label>
                 </div>
@@ -84,7 +86,8 @@ export default function Form() {
                             name='email'
                             // value={formValues.email}
                             placeholder='Enter your email'
-                        // onChange={handleChange}
+                            // onChange={handleChange}
+                            required
                         />
                     </label>
                 </div>
