@@ -23,9 +23,15 @@
     color: cornflowerblue;
     margin-bottom: 1rem;
 
-}.moduleDetail label {
-    color: blue;
 }
 
+.h2Comments {
+    margin-top: 2rem;
+}
 
+.comments {
+    border-bottom: 1px solid rgb(90, 28, 28);
+    font-size: 1.3rem;
+}
+    
 

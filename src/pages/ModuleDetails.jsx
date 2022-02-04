@@ -42,7 +42,14 @@ function ModuleDetails() {
                     <div className='detailDescription'>
                         <h2>{module.name}</h2>
                         <p>{module.description}</p>
-                        {/* <p>{module.reviews}</p> */}
+                        <h2 className='h2Comments'>Comments</h2>
+                        <ul className='comments'>
+                            {module.reviews.map(review => (
+                                <li>{review.content}</li>
+                            ))}
+                        </ul>
+
+
                     </div>
                 </div>
                 <div>
