@@ -28,6 +28,13 @@ function ModuleDetails() {
             },
             body: JSON.stringify({ content, moduleId })
         }).then(resp => resp.json())
+            .then(newComment => {
+                const modulesCopy = JSON.parse(JSON.stringify(module))
+                const moduleToChange = modulesCopy.find(module => module.id === moduleId)
+                moduleToChange.reviews.push(newComment)
+                setModule(modulesCopy)
+            })
+
     }
 
 
@@ -63,7 +70,6 @@ function ModuleDetails() {
                             event.target.reset()
                         }}
                     >
-
                         <input
                             type="text"
                             name='comment'
