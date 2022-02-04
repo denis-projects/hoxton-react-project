@@ -4,20 +4,6 @@ import "../styles/Contact.css"
 
 export default function Form() {
 
-    // const initialValues = {
-    //     name: "",
-    //     lastname: "",
-    //     email: "",
-    //     comment: ""
-    // }
-
-    // const [formValues, setFormValues] = useState(initialValues)
-
-    // const handleChange = (e) => {
-    //     const { name, value } = e.target
-    //     setFormValues({ ...formValues, [name]: value })
-
-    // }
 
     function createUser(name, lastname, email, comment) {
         fetch('http://localhost:3001/users', {
@@ -29,7 +15,6 @@ export default function Form() {
             body: JSON.stringify({ name, lastname, email, comment })
         }).then(resp => resp.json())
     }
-
 
 
 
@@ -56,9 +41,7 @@ export default function Form() {
                             id='name'
                             type="text"
                             name='name'
-                            // value={formValues.name}
                             placeholder='Enter your name'
-                            // onChange={handleChange}
                             required
                         />
                     </label>
@@ -84,9 +67,7 @@ export default function Form() {
                             id='email'
                             type="email"
                             name='email'
-                            // value={formValues.email}
                             placeholder='Enter your email'
-                            // onChange={handleChange}
                             required
                         />
                     </label>
@@ -98,9 +79,7 @@ export default function Form() {
                             id='comment'
                             type="text"
                             name='comment'
-                            // value={formValues.comment}
                             placeholder='Enter your comment'
-                        // onChange={handleChange}
                         />
                     </label>
                 </div>
