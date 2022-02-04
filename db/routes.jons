@@ -1,4 +1,0 @@
-{
-    "/modules": "/modules?_embed=reviews",
-    "/modules/*: "/modules/$1?_embed=reviews"
-}
