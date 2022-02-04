@@ -42,17 +42,18 @@ function ModuleDetails() {
                     <div className='detailDescription'>
                         <h2>{module.name}</h2>
                         <p>{module.description}</p>
+
+                    </div>
+                </div>
+                <div>
+                    <div className='comment-wrapper'>
                         <h2 className='h2Comments'>Comments</h2>
                         <ul className='comments'>
                             {module.reviews.map(review => (
                                 <li>{review.content}</li>
                             ))}
                         </ul>
-
-
                     </div>
-                </div>
-                <div>
                     <form
                         className='detailsForm'
                         onSubmit={function (event) {
