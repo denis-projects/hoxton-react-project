@@ -50,6 +50,13 @@
       "image": "/assets/FinalProject.jpg"
     }
   ],
+  "reviews": [
+    {
+      "id": 1,
+      "content": "test",
+      "moduleId": 1
+    }
+  ],
   "users": [
     {
       "id": 1,
